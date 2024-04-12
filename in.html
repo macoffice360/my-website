@@ -1,0 +1,26 @@
+<form action="https://formsubmit.co/myemail@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="Nombre"> Nombre</label>
+            <input type="text" id="firstName" name="Nombre" required>
+            <input type="hidden" name="_subject" value="Nueva consulta web">
+          </div>
+    
+          <div class="form-group">
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="lastName" name="Apellido" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="Mensaje">Mensaje</label>
+            <textarea name="Mensaje" id="message" cols="30" rows="3" placeholder="Escribinos tu mensaje" required></textarea>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <button type="submit">Enviar</button>
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value=" ">
+        </form>
